@@ -51,10 +51,10 @@ git clone https://github.com/dhruvagrawat/HackCBS6.0.git
 ```
 This will make a copy of the code to your local machine.
 
-2. Now move to the `appoints` directory.
+2. Now move to the `client` directory.
 
 ```sh
-cd appoints
+cd /client
 ```
 
 3. Now check the remote of your local code by:
@@ -68,15 +68,29 @@ git remote -v
 ```sh
 npm install
 ```
+5. Now move to the `server` directory.
+
+```sh
+cd /server
+npm install
+```
 
 ### Run locally
 
 Run the below command to start the server:
 
 ```sh
-npm run dev
+cd /server
+node index.js
 ```
-Go to: [http://localhost:4000](http://localhost:4000)
+Now in a new terminal 
+
+```sh
+cd /client
+npm start
+```
+
+Go to: [http://localhost:4000](http://localhost:3000)
 
 
 <footer>
