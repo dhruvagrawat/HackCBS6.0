@@ -19,3 +19,20 @@ window.onscroll = function () {
     nav.classList.remove("sticky");
   }
 }
+
+var typed = new Typed('#element', {
+  strings: ['Tinde..', 'TinDr.'],
+  typeSpeed: 100,
+  backSpeed: 20,
+  smartBackspace: false,
+  loop: true,
+});
+
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
