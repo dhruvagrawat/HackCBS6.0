@@ -16,7 +16,7 @@
 <li>React.js</>
 <li>Redux (for state management)</li>
 <li>Material-UI (for UI components)</li>
-
+</ul>
 <span style="color: grey; font-weight:bold"> Backend: <br> </span>
 <ul style="list-style-type: none;">
 <li>Node.js</li>
