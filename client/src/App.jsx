@@ -13,7 +13,7 @@ function App() {
             <nav>
               <div className="nav-content">
                 <div className="logo">
-                  <a href="#">Mike Hawk Hertz.</a>
+                  <a href="#">TinDr</a>
                 </div>
                 <ul className="nav-links">
                   <li><a href="#">Home</a></li>
@@ -30,8 +30,15 @@ function App() {
           <section className="home">
             <div className="firstsection">
               <div className="leftsection">
-                <button className="login">log in</button>
+                <h1 class="welcome">Welcome to TinDr!</h1>
+                <h5 class="tagline">Aiding AIDS since yo mama's birth</h5>
+                <div class="lognsign">
+                  <button className="login">log in</button>
+                  <a class="signup" href='#'><u>sign up</u></a>
+                </div>
+
               </div>
+
               <div className="rightsection">
                 monki
                 {/* content */}
@@ -44,6 +51,23 @@ function App() {
       {/* Replaced class with className */}
       <div className="text"> {/* Replaced class with className */}
         <h2 id="about">About Us</h2> {/* Removed the paragraph tag surrounding the heading */}
+        <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
+
+      </div>
+      <div className="text"> {/* Replaced class with className */}
+        <h2 id="second section">second section</h2> {/* Removed the paragraph tag surrounding the heading */}
+        <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
+
+      </div>
+
+      <div className="text"> {/* Replaced class with className */}
+        <h2 id="third section">third section</h2> {/* Removed the paragraph tag surrounding the heading */}
+        <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
+
+      </div>
+
+      <div className="text"> {/* Replaced class with className */}
+        <h2 id="fourth section">fourth section</h2> {/* Removed the paragraph tag surrounding the heading */}
         <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
 
       </div>

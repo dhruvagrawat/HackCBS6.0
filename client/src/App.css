@@ -1,26 +1,31 @@
 /* Google Font Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
 }
-nav{
-  position: fixed;
+
+nav {
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 2em;
   transition: all 0.4s ease;
   margin-bottom: 3em;
 }
-nav.sticky{
+
+nav.sticky {
   padding: 15px 20px;
   background: #4070f4;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-nav .nav-content{
+
+nav .nav-content {
   height: 100%;
   max-width: 1200px;
   margin: auto;
@@ -28,22 +33,27 @@ nav .nav-content{
   align-items: center;
   justify-content: space-between;
 }
-nav .logo a{
+
+nav .logo a {
   font-weight: 500;
   font-size: 35px;
   color: #4070f4;
 }
-nav.sticky .logo a{
+
+nav.sticky .logo a {
   color: #fff;
 }
-.nav-content .nav-links{
+
+.nav-content .nav-links {
   display: flex;
 }
-.nav-content .nav-links li{
+
+.nav-content .nav-links li {
   list-style: none;
   margin: 0 8px;
 }
- .nav-links li a{
+
+.nav-links li a {
   text-decoration: none;
   color: #0E2431;
   font-size: 18px;
@@ -51,18 +61,26 @@ nav.sticky .logo a{
   padding: 10px 4px;
   transition: all 0.3s ease;
 }
- .nav-links li a:hover{
-   color: #4070f4;
- }
- nav.sticky .nav-links li a{
-   color: #fff;
-   transition: all 0.4s ease;
+
+.nav-links li a:hover {
+  color: #4070f4;
 }
- nav.sticky .nav-links li a:hover{
+
+.nav-links li a:hover {
+  font-size: 140%;
+}
+
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
   color: #0E2431;
 }
-.home{
-  height: 100vh;
+
+.home {
+  height: 400px;
   width: 100%;
   background: url("assets/background.jpg") no-repeat;
   background-size: cover;
@@ -70,12 +88,14 @@ nav.sticky .logo a{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-h2{
+
+h2 {
   font-size: 30px;
   margin-bottom: 6px;
   color: #4070f4;
 }
-.text{
+
+.text {
   text-align: justify;
   padding: 40px 80px;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
@@ -98,29 +118,61 @@ h2{
 .firstsection {
   display: flex;
   justify-content: space-around;
-  margin: 5em 0;
-  margin-bottom: 65px;
-  margin-top: 69px;
+  margin: 2em 0;
+  margin-bottom: 48px;
+  margin-top: -81px;
 }
 
 .leftsection {
   width: 30%;
+  background-color: #fff;
+  margin: 2em;
+  border: 2px solid black;
+  box-sizing: border-box;
+  height: 20em;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .rightsection {
   width: 70%;
+  background: rgba(62, 153, 244, 0.4);
+  margin: 2em;
+  border: 2px solid black;
+  box-sizing: border-box;
+  height: 20em;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
 
+button:hover {
+  background-color: #45a049;
+}
+
+a:hover {
+  transform: scale(1.21);
+}
 
 .header-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  transition: all 0.4s ease;
-  margin-bottom: 3em;
+  background: transparent;
+  padding: 5px;
+  margin-bottom: -10em;
 }
 
 .header-wrapper.sticky {
@@ -130,8 +182,56 @@ h2{
 }
 
 .home-wrapper {
-  margin-top: 100px; /* Adjust the value as needed to create space between the header and the content */
+  margin-top: 100px;
 }
 
 /* Rest of the CSS remains the same */
+< !-- HTML !--><button class="button-81" role="button">Button 81</button>
 
+/* CSS */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+h1.welcome {
+  font-size: x-large;
+  margin: 3px;
+}
+
+.lognsign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
