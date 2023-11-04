@@ -4,8 +4,8 @@
 <p>This repository contains the source code and documentation for our healthcare project. The project aims to improve healthcare services by leveraging technology to streamline processes, enhance patient care, and facilitate communication between healthcare providers and patients.</p>
 
 <h3>Project Structure</h3>
-/src: This directory contains the source code for the project.
-/index: This directory contains main source code oof the front end part.
+/src: This directory contains the source code for the project.<br>
+/index: This directory contains main source code oof the front end part.<br>
 /assests: This directory contains utility scripts for tasks such as database setup and data preprocessing.
 
 
