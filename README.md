@@ -22,13 +22,19 @@
 <li>Node.js</li>
 <li>Express.js</li>
 <li>MongoDB (Mongoose for object modeling)</li>
+</ul>
 
-Authentication:
-JSON Web Tokens (JWT)
-Other Tools:
-Git and GitHub for version control and collaboration
-Contributing
-Contributions are welcome! If you find any bugs or want to add new features, please open an issue or submit a pull request.
+<span style="color: grey; font-weight:bold"> Authentication: <br> </span>
+<ul style="list-style-type: none;">
+<li>JSON Web Tokens (JWT)</li>
+</ul>
+
+<span style="color: grey; font-weight:bold"> Other Tools: <br> </span>
+<ul style="list-style-type: none;">
+<li>Git and GitHub for version control and collaboration</li>
+
+<h4>Contributing</h4>
+<h5>Contributions are welcome! If you find any bugs or want to add new features, please open an issue or submit a pull request.</h5>
 
 ### Prerequisites
 
