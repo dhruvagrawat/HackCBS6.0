@@ -1,5 +1,6 @@
 
 <h1 align="left">Healthcare Appointment Project</h1>
+<h4 align="left">Team name = Coders_Catnip<h4>
 <h3>Overview</h2>
 <p>This repository contains the source code and documentation for our healthcare project. The project aims to improve healthcare services by leveraging technology to streamline processes, enhance patient care, and facilitate communication between healthcare providers and patients.</p>
 
