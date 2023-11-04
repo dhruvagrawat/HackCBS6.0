@@ -47,7 +47,7 @@ Your machine should have Npm(or Yarn), Node.js, and MERN installed to use it loc
 1. First fork the repo :fork_and_knife: to your account.  
    Go to the forked repo and clone it :busts_in_silhouette: to your local machine:
 ```sh
-git clone "Repository link here "
+git clone https://github.com/dhruvagrawat/HackCBS6.0.git
 ```
 This will make a copy of the code to your local machine.
 
