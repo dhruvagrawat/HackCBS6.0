@@ -96,8 +96,8 @@ h2 {
 }
 
 .text {
-  text-align: justify;
-  padding: 40px 80px;
+  text-align: -webkit-center;
+  padding: 43px 67px;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -218,4 +218,28 @@ h1.welcome {
 
 td{
   font-size: larger;
+}
+
+button.FAQ__title {
+  background-color: darkslategrey;
+  width: 100%;
+  margin: 2em;
+  margin-left: revert-layer;
+}
+
+p {
+  font-size: larger;
+}
+
+form.mini-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  font-size: larger;
+}
+
+input.react-datepicker-ignore-onclickoutside {
+  width: 100%;
 }
