@@ -2,17 +2,20 @@
 <h1 align="left">Healthcare Appointment Project</h1>
 <h4 align="left">Team name = Coders_Catnip , Team code : 3adbb5b2e8 , Team no : 6053<h4>
 <h3 align="left"> Team members</h3>
-   1. Dhruv [@dhruvagrawat](https://github.com/dhruvagrawat) 
-   2. Aniket Kumar [@icy-69](https://github.com/icy-69)
-   3. Tanmay Binjola [@tanmay692004](https://github.com/tanmay69004)
-   4. Achint Jain [@achintjain2004](https://github.com/achintjain2004)
+   
+[1. Dhruv](https://github.com/dhruvagrawat) 
+[2. Aniket Kumar](https://github.com/icy-69)
+[3. Tanmay Binjola](https://github.com/tanmay69004)
+[4. Achint Jain](https://github.com/achintjain2004)
 
 ## Problem set Theme Healthcare
 
 <p> Enhancing Healthcare Access: Streamlining Appointment Scheduling and Availability <p>  
 
 ## PPT link
-tinDr.(https://docs.google.com/presentation/d/1eOwbaviLOlxiLpgwnZdJ5ClXkwgIUnfT/edit?usp=drive_link&ouid=100128326571766977441&rtpof=true&sd=true)
+
+[tinDr.](https://docs.google.com/presentation/d/1eOwbaviLOlxiLpgwnZdJ5ClXkwgIUnfT/edit?usp=drive_link&ouid=100128326571766977441&rtpof=true&sd=true)
+
 <h3>Overview</h2>
 <p>This repository contains the source code and documentation for our healthcare project. The project aims to improve healthcare services by leveraging technology to streamline processes, enhance patient care, and facilitate communication between healthcare providers and patients.</p>
 
