@@ -32,6 +32,8 @@ nav .nav-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 nav .logo a {
@@ -127,7 +129,7 @@ h2 {
   width: 30%;
   background-color: #fff;
   margin: 2em;
-  border: 2px solid black;
+  
   box-sizing: border-box;
   height: 20em;
   align-content: center;
@@ -139,16 +141,17 @@ h2 {
 
 .rightsection {
   width: 70%;
-  background: rgba(62, 153, 244, 0.4);
+  /* background: rgba(62, 153, 244, 0.4); */
   margin: 2em;
-  border: 2px solid black;
+  border: 2px px solid black;
   box-sizing: border-box;
   height: 20em;
   align-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 button {
@@ -210,13 +213,13 @@ h1.welcome {
   align-items: center;
 }
 
-.bottom{
-	width:100%;
-	background-color:;
-	border-bottom:2px solid #f0f0f0;
+.bottom {
+  width: 100%;
+  background-color: ;
+  border-bottom: 2px solid #f0f0f0;
 }
 
-td{
+td {
   font-size: larger;
 }
 
@@ -242,4 +245,75 @@ form.mini-form {
 
 input.react-datepicker-ignore-onclickoutside {
   width: 100%;
+}
+
+img.logo {
+  width: 50%;
+  height: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile {
+  background: cyan;
+  padding: 0.4em;
+  border-radius: 50%;
+  /* margin: 0%; */
+  margin-top: -4px;
+}
+
+.footer {
+  text-align: center;
+  background: linear-gradient(to right, #a6c0fe, #f68084);
+  color: white;
+  padding: 10px 0;
+}
+
+h1.bigtext {
+  font-size: 5em;
+}
+
+h6.smalltext {
+  font-size: 1.8em;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+.mini-form {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-col input {
+  width: 48%;
+}
+
+button[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form{
+  padding:1em;
 }
