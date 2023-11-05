@@ -129,7 +129,7 @@ h2 {
   width: 30%;
   background-color: #fff;
   margin: 2em;
-  
+  padding-left: 30px;
   box-sizing: border-box;
   height: 20em;
   align-content: center;
@@ -202,7 +202,7 @@ a:hover {
 }
 
 h1.welcome {
-  font-size: x-large;
+  font-size: 50px;
   margin: 3px;
 }
 
@@ -225,7 +225,7 @@ td {
 
 button.FAQ__title {
   background-color: darkslategrey;
-  width: 100%;
+  width: 60%;
   margin: 2em;
   margin-left: revert-layer;
 }
@@ -241,6 +241,7 @@ form.mini-form {
   justify-content: space-evenly;
   align-items: stretch;
   font-size: larger;
+  width: 60%;
 }
 
 input.react-datepicker-ignore-onclickoutside {
@@ -270,11 +271,11 @@ img.logo {
 }
 
 h1.bigtext {
-  font-size: 5em;
+  font-size: 70px;
 }
 
 h6.smalltext {
-  font-size: 1.8em;
+  font-size: 30px;
 }
 
 .contact-form {
@@ -286,7 +287,8 @@ h6.smalltext {
   display: flex;
   flex-direction: column;
   font-size: larger;
-  width: 100%;
+  width: 60%;
+  height:400px;
 }
 
 .form-row {
@@ -295,6 +297,17 @@ h6.smalltext {
   margin-bottom: 10px;
 }
 
+.smolclass {
+  height: 35px;
+}
+
+.smolclass1 {
+  height : 100px;
+}
+
+.smolclass2{
+  height:35px;
+}
 .form-col {
   display: flex;
   flex-direction: row;
@@ -302,7 +315,8 @@ h6.smalltext {
 }
 
 .form-col input {
-  width: 48%;
+  width: 80%;
+  height: 20px;
 }
 
 button[type="submit"] {
@@ -316,4 +330,24 @@ button[type="submit"] {
 
 .contact-form{
   padding:1em;
+}
+
+button.login {
+  padding: 1.2em;
+}
+
+.slot-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.slot-table th, .slot-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.slot-table th {
+  background-color: #f2f2f2;
 }
