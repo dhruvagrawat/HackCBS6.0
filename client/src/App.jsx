@@ -33,39 +33,51 @@ function App() {
   return (
     <div>
       <div className="header-wrapper">
-        <header>
-          <nav>
-            <div className="nav-content">
-              <div className="logo">
-                <a href="#">TinDr</a>
-              </div>
-              <ul className="nav-links">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#appointment">Appointment</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
+  <header>
+    <nav>
+      <div className="nav-content">
+        <div className="logo">
+          <a href="#">
+            <img
+              className="logo"
+              src="src\assets\tin.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#appointment">Appointment</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <div class="profile">
+              <a href='#'><i class="fa-solid fa-user fa-lg"></i></a>
             </div>
-          </nav>
-        </header>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </header>
+</div>
+
       <div className="home-wrapper">
         <section className="home">
           <div className="firstsection">
             <div className="leftsection">
               <h1 className="welcome">Welcome to TinDr!</h1>
-              <h5 className="tagline">Aiding AIDS since yo mama's birth</h5>
+              <h5 className="tagline">Most convenient platform to book hospital appointements</h5>
               <div className="lognsign">
                 <button className="login">log in</button>
                 <a className="signup" href="#">
@@ -74,7 +86,8 @@ function App() {
               </div>
             </div>
             <div className="rightsection">
-              monki
+              <h1 class="bigtext">Sample text 1</h1>
+              <h6 class="smalltext">sample text 2</h6>
               {/* content */}
             </div>
           </div>
@@ -135,12 +148,44 @@ function App() {
         <h2 id="third section">third section</h2>
         <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
       </div>
-      <div className="text">
-        <h2 id="fourth section">fourth section</h2>
-        <p>Our platform is designed for seamless healthcare scheduling. Users can easily book appointments with top doctors in various hospitals. With a user-friendly interface, scheduling is convenient and straightforward. Our focus is on prioritizing your well-being and time efficiency.</p>
+
+
+      <div className='text'>
+      <h2 id="contact">Contact Us</h2>
+      <div class="contact-form">
+  <form onSubmit={handleSubmit} className="mini-form">
+    <div className="form-row">
+      <div className="form-col">
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your First Name" /> 
+      </div>
+      <div className="form-col">
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your Last Name" />
       </div>
     </div>
-  );
+    <div className="form-row">
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your Email"/>
+    </div>
+    <div className="form-row">
+      <label>Phone:</label>
+      <input type="tel" placeholder="Enter your Contact Number"/>
+    </div>
+    <div className="form-row">
+      <label>Message:</label>
+      <textarea placeholder="Enter your message" ></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  </div>
+</div>
+
+    <footer className="footer">
+      <p>© 2023 TinDr. All rights reserved.</p>
+    </footer>
+  </div>
+);
 }
 
 export default App;
