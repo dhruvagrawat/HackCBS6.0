@@ -2,10 +2,10 @@
 <h1 align="left">Healthcare Appointment Project</h1>
 <h4 align="left">Team name = Coders_Catnip , Team code : 3adbb5b2e8 , Team no : 6053<h4>
 <h3 align="left"> Team members</h3>
-   1. Dhruv @dhruvagrawat(https://github.com/dhruvagrawat) 
-   2. Aniket Kumar @icy-69
-   3. Tanmay Binjola @tanmay692004
-   4. Achint Jain @achintjain2004
+   1. Dhruv [@dhruvagrawat](https://github.com/dhruvagrawat) 
+   2. Aniket Kumar [@icy-69](https://github.com/icy-69)
+   3. Tanmay Binjola [@tanmay692004](https://github.com/tanmay69004)
+   4. Achint Jain [@achintjain2004](https://github.com/achintjain2004)
 
 ## Problem set Theme Healthcare
 
